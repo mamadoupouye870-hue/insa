@@ -4,34 +4,34 @@
 
 @layer base {
   :root {
-    --background: 210 20% 98%;
+    --background: 216 60% 98%;
     --foreground: 222 47% 11%;
     --card: 0 0% 100%;
     --card-foreground: 222 47% 11%;
     --popover: 0 0% 100%;
     --popover-foreground: 222 47% 11%;
-    --primary: 199 89% 48%;
+    --primary: 217 91% 55%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 210 16% 93%;
+    --secondary: 214 40% 96%;
     --secondary-foreground: 222 47% 11%;
-    --muted: 210 16% 95%;
+    --muted: 214 35% 96%;
     --muted-foreground: 215 16% 47%;
-    --accent: 199 89% 48%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 214 40% 96%;
+    --accent-foreground: 222 47% 11%;
     --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 100%;
-    --border: 214 20% 89%;
-    --input: 214 20% 89%;
-    --ring: 199 89% 48%;
-    --chart-1: 199 89% 48%;
-    --chart-2: 142 71% 45%;
+    --border: 214 28% 91%;
+    --input: 214 28% 88%;
+    --ring: 217 91% 55%;
+    --chart-1: 217 91% 55%;
+    --chart-2: 158 64% 42%;
     --chart-3: 38 92% 50%;
-    --chart-4: 278 68% 58%;
+    --chart-4: 189 75% 42%;
     --chart-5: 0 72% 51%;
-    --radius: 0.5rem;
-    --sidebar: 222 47% 11%;
-    --sidebar-foreground: 210 20% 90%;
-    --sidebar-accent: 199 89% 48%;
+    --radius: 0.75rem;
+    --sidebar: 0 0% 100%;
+    --sidebar-foreground: 222 47% 11%;
+    --sidebar-accent: 217 91% 55%;
     --sidebar-accent-foreground: 0 0% 100%;
   }
   .dark {
@@ -41,21 +41,19 @@
     --card-foreground: 210 20% 90%;
     --popover: 222 47% 10%;
     --popover-foreground: 210 20% 90%;
-    --primary: 199 89% 48%;
+    --primary: 217 91% 60%;
     --primary-foreground: 0 0% 100%;
     --secondary: 217 33% 17%;
     --secondary-foreground: 210 20% 90%;
     --muted: 217 33% 15%;
     --muted-foreground: 215 20% 65%;
-    --accent: 199 89% 48%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 217 33% 17%;
+    --accent-foreground: 210 20% 90%;
     --destructive: 0 63% 31%;
     --destructive-foreground: 0 0% 100%;
     --border: 217 33% 20%;
     --input: 217 33% 20%;
-    --ring: 199 89% 48%;
-    --sidebar: 222 47% 6%;
-    --sidebar-foreground: 210 20% 90%;
+    --ring: 217 91% 60%;
   }
 }
 

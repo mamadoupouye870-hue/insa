@@ -15,14 +15,14 @@ export function StatCard({
   color?: string;
 }) {
   return (
-    <Card className="p-5">
+    <Card className="p-5 border-slate-200/80 shadow-[0_8px_24px_rgba(15,23,42,0.04)] hover:shadow-[0_12px_30px_rgba(15,23,42,0.08)] transition-shadow">
       <div className="flex items-start justify-between">
         <div>
-          <p className="text-sm text-muted-foreground">{label}</p>
-          <p className="text-2xl font-bold mt-1 text-foreground">{value}</p>
+          <p className="text-[13px] font-medium text-slate-500">{label}</p>
+          <p className="text-[27px] leading-none font-bold mt-2 text-slate-950">{value}</p>
           {trend && <p className="text-xs text-muted-foreground mt-1">{trend}</p>}
         </div>
-        <div className={`p-2 rounded-lg bg-muted ${color}`}>
+        <div className={`p-2.5 rounded-xl bg-slate-50 ${color}`}>
           <Icon className="w-5 h-5" />
         </div>
       </div>

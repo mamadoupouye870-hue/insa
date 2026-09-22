@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
-import { Loader2, Eye, EyeOff, GraduationCap, AlertCircle } from "lucide-react";
+import { Loader as Loader2, Eye, EyeOff, GraduationCap, CircleAlert as AlertCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -57,17 +57,17 @@ export function LoginForm() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-slate-100 px-4">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-slate-50 px-4">
       <div className="w-full max-w-md">
         <div className="flex flex-col items-center mb-8">
-          <div className="w-14 h-14 rounded-xl bg-primary flex items-center justify-center mb-3">
+          <div className="w-14 h-14 rounded-2xl bg-primary flex items-center justify-center mb-3 shadow-[0_8px_24px_rgba(37,99,235,0.25)]">
             <GraduationCap className="w-7 h-7 text-white" />
           </div>
           <h1 className="text-2xl font-bold text-slate-900">Centre de Formation</h1>
           <p className="text-sm text-slate-500 mt-1">Plateforme de gestion</p>
         </div>
 
-        <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-6 sm:p-8">
+        <div className="bg-white rounded-2xl shadow-[0_8px_30px_rgba(15,23,42,0.06)] border border-slate-200/80 p-6 sm:p-8">
           <h2 className="text-lg font-semibold text-slate-900 mb-6">Connexion</h2>
 
           {error && (
